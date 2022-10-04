@@ -64,7 +64,9 @@ h2 {
 }
 
 .introduction-row {
-    margin: 0 10%;
+    margin: auto;
+    padding: 0 10%;
+    max-width: 2200px;
 }
 
 .title-column {
