@@ -1,0 +1,72 @@
+/* Media-Querys */
+
+/* All Large Devices and below */
+@media only screen and (max-width: 1199px) {
+    .flo-image {
+        position: static;
+        width: 70%;
+    }
+
+    .title-column {
+        text-align: center;
+    }
+
+    .flutter-logo {
+        position: absolute;
+        right: 13%;
+        bottom: 40%;
+    }
+
+    .html-logo {
+        position: absolute;
+        left: 15%;
+        bottom: 70%;
+    }
+
+    .css-logo {
+        position: absolute;
+        right: 20%;
+        bottom: 85%;
+    }
+
+    .title-column {
+        padding: 5% 0 5%;
+    }
+
+    .navbar {
+        padding: 30px 10% 30px;
+    }
+
+    .headline {
+        padding: 3% 0 5%;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .contact-square {
+        visibility: hidden;
+    }
+
+}
+
+
+/* All Medium Devices and below */
+@media only screen and (max-width: 991px) {
+
+    .contact-item {
+        margin-left: 0;
+    }
+}
+
+
+/* All extra small devices */
+@media only screen and (max-width: 575px) {
+
+    .logo {
+        height: 35px;
+        width: 35px;
+        background-size: 17px;
+        box-shadow: 3px 3px 5px 0 #1b1b1b39;
+    }
+
+}
