@@ -69,4 +69,10 @@
         box-shadow: 3px 3px 5px 0 #1b1b1b39;
     }
 
+    .contact-text {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+
 }
