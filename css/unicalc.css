@@ -1,0 +1,156 @@
+/* CSS of Unicalc Page */
+
+#unicalc-heading {
+    background-color: #33CEFF;
+    padding: 30% 20% 10%;
+}
+
+.unicalc-title {
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+/* short description */
+
+#short-description {
+    padding: 7% 15% 3%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.66;
+}
+
+.summary-col {
+    padding: 0 5%;
+}
+
+.summary-box {
+    background-color: #33CEFF;
+    color: white;
+    padding: 50px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 19px #0000003d;
+}
+
+.summary-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.figma-img {
+    width: 20px;
+}
+
+.figma-img-text {
+    margin: 5px;
+    width: 50px;
+}
+
+.flutter-img {
+    margin: 10px;
+    width: 75px;
+}
+
+/* Call to Download */
+
+#ct-download {
+    margin: 7% 15% 10%;
+}
+
+.google-play-btn {
+    color: white;
+    background-color: #33CEFF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Background Story */
+
+#background-story {
+    padding: 7% 15%;
+    background-color: #33CEFF;
+
+}
+
+.image-col {
+    padding: 0 0 60px;
+}
+
+.background-col {
+    padding-left: 10%;
+}
+
+.phone-img-1 {
+
+    max-width: 300px;
+}
+
+.story {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.66;
+}
+
+.story-headline {
+    color: white;
+    padding: 0 0 20px;
+}
+
+/* Solution */
+
+#solution {
+    padding: 7% 15%;
+}
+
+.solution-col {
+    padding-right: 10%;
+    padding-bottom: 60px;
+}
+
+.solution-headline {
+    padding: 0 0 20px;
+}
+
+.phone-img-2 {
+    max-width: 300px;
+}
+
+
+/* Footer */
+
+.unicalc-footer {
+    background-color: #33CEFF;
+    color: white;
+    padding: 5% 15% 3%;
+}
+
+.contact-col {
+    text-align: left;
+}
+
+.intersted-heading {
+    margin-bottom: 30px;
+}
+
+.light-link-unicalc {
+    text-decoration: none;
+    color: white;
+}
+
+
+.light-link-unicalc:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.right-links {
+    padding: 50px 0;
+    text-align: end;
+}

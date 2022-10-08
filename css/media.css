@@ -47,6 +47,16 @@
         visibility: hidden;
     }
 
+    .background-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .solution-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
 
 
@@ -55,6 +65,42 @@
 
     .contact-item {
         margin-left: 0;
+    }
+
+    .navbar {
+        position: static;
+    }
+
+    #introduction {
+        margin: 0;
+    }
+
+    #unicalc-heading {
+        padding: 10% 20%;
+    }
+
+    .summary-col {
+        padding: 10% 0;
+    }
+
+    .summary-box {
+        padding: 40px 10%;
+    }
+}
+
+/* All Small devices and below */
+@media only screen and (max-width: 767px) {
+    .right-links {
+        text-align: start;
+    }
+
+    .unicalc-title {
+        font-size: 3rem;
+    }
+
+    .summary-heading {
+        font-size: 1.5rem;
+        font-weight: 700;
     }
 }
 
@@ -73,6 +119,15 @@
         display: block;
         padding-top: 5px;
         padding-bottom: 7px;
+    }
+
+    .unicalc-title {
+        font-size: 2rem;
+    }
+
+    .google-play-btn {
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
 }

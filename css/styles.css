@@ -20,10 +20,15 @@ h2 {
     font-weight: 700;
 }
 
+.light-text {
+    color: white;
+}
+
 /* Navbar */
 
 .navbar {
-    padding: 30px 10% 72px;
+    padding: 30px 10% 10px;
+    background-color: white;
 }
 
 .nav-container {
@@ -60,7 +65,7 @@ h2 {
 
 #introduction {
     position: relative;
-    margin: 0;
+    margin: 100px 0 0;
 }
 
 .introduction-row {
@@ -246,6 +251,16 @@ h2 {
     transform: rotate(45deg);
 }
 
+/* Footer */
+
+footer {
+    padding: 7% 15% 3%;
+}
+
+.credit {
+    font-size: .7rem;
+}
+
 
 
 /* About Page */
@@ -269,12 +284,6 @@ h2 {
 
 .education-box p {
     color: grey;
-}
-
-/* Footer */
-
-footer {
-    padding: 7% 15% 3%;
 }
 
 
