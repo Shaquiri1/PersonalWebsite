@@ -38,6 +38,7 @@ h2 {
 .navbar-brand {
     font-size: 3rem;
     font-weight: 700;
+    line-height: .9;
 }
 
 .dot {
