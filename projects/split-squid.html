@@ -14,7 +14,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/unicalc.css">
+    <link rel="stylesheet" href="../css/splitsquid.css">
     <link rel="stylesheet" href="../css/media.css">
 
 
@@ -63,8 +63,10 @@
         </div>
     </nav>
 
-    <section id="unicalc-heading">
-        <h1 class="unicalc-title">Unicalc Augsburg</h1>
+    <!-- Title and Description -->
+
+    <section id="squid-heading">
+        <h1 class="squid-title">Split Squid</h1>
     </section>
 
     <section id="short-description">
@@ -85,44 +87,41 @@
                     <img class="flutter-img"
                         src="https://storage.googleapis.com/cms-storage-bucket/8ac0834f57eb3b542a45.svg"
                         alt="flutter logo">
+                    <img class="firebase-img"
+                        src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-knockout.svg"
+                        alt="firebase logo">
                 </div>
             </div>
             <div class="col-12 col-lg-6 col-md-12 summary-text">
-                <p>Bei Unicalc Augsburg handelt es sich um eine Anwendung die dabei Hilft den Überblick über die
-                    gesammelten Noten und Punkte im Studium zu behalten.</p>
-                <p>Mit der App kann man zu jedem Zeitpunkt seinen Aktuellen Schnitt und Statistiken zu den erreichten
-                    Noten einsehen</p>
+                <p>Bei Split Squid handelt es sich um eine mobile Anwendung zur Verwaltung von persönlichen sowie
+                    gemeinsamen Ausgaben.</p>
+                <p>Dies erleichtert die Buchhaltung beispielsweise in Wohngemeinschaften oder bei Urlauben in Gruppen
+                    und ermöglicht einen Überblick über monatliche Kosten.</p>
             </div>
         </div>
 
     </section>
 
-    <section id="ct-download">
-        <a class="btn google-play-btn" href="https://play.google.com/store/apps/details?id=com.diamondStudios.Unicalc"
-            target="_blank">
-            <i class="fa-brands fa-google-play"></i> Erhältlich im Google Play Store
-        </a>
-
-    </section>
+    <!-- Background Story -->
 
     <section id="background-story">
         <div class="row">
             <div class="col-xl-4 col-lg-12 col-12 image-col">
-                <img class="phone-img-1" src="../images/phone_1_unicalc.svg" alt="Bild der Anwendung">
+                <img class="phone-img-1" src="../images/phone_1_squid.svg" alt="Bild der Anwendung">
             </div>
             <div class="col-xl-8 col-lg-12 col-12 story background-col">
                 <h2 class="story-headline">Hintergrund</h2>
-                <p class="light-text">Um die eigenen bisher im Studium gesammelten Noten einzusehen musste man sich bei
-                    einem System der
-                    Universität im Browser anmelden und konnte dort die Noten unliebsam zusammengestellt sehen. Das
-                    alleine war keine gute Lösung vorallem wenn man unterwegs war und das ganze im mobilen Browser
-                    ansehen wollte. <br>
-                    Sofern man den aktuellen Notendurchschnitt wissen wollte musste man sich durch die Prüfungsordnung
-                    wühlen und das komplizierte Berechnungsschema verstehen um den Schnitt selbst zu berechnen oder den
-                    Schnitt postalisch anfordern.</p>
-                <p class="light-text">Weiterhin fehlte eine Möglichkeit die Noten in den Gesamtkontext des Studiums
-                    einzuordnen mittels
-                    passender Statistiken.</p>
+                <p class="light-text">Die Anwendung entstand aus einer persönlichen Motivation heraus. In meiner
+                    Wohngemeinschaft kam es oft dazu, dass eine Person gemeinsame Einkäufe bezahlt hat und diese
+                    Ausgaben dann aufgeteilt werden mussten. Außerdem wollte ich zusätzlich meine persönlichen
+                    alleinigen Ausgaben dokumentieren um einen Gesamtüberblick zu behalten.
+                </p>
+                <p class="light-text">
+                    Im Google Play Store konnte ich keine Buchhaltungsapp finden, die es erlaubte sowohl Gruppenausgaben
+                    als auch persönliche Ausgaben in einer Anwendung gesammelt zu betrachten.
+                </p>
+                <p class="light-text">
+                    Aus diesem Grund kam es zur Realisierung dieser App.</p>
             </div>
         </div>
     </section>
@@ -130,19 +129,30 @@
     <!-- Solution -->
 
     <section id="solution">
+        <div class="row story solution-text">
+            <h2 class="solution-headline">Lösung</h2>
+            <p class="solution-text">Die entwickelte App bietet die Möglichkeit Ausgaben in zuvor angelegten Gruppen
+                einzutragen und unter
+                den Mitgliedern der Gruppe nach Belieben aufzuteilen. Außerdem kann man alle Ausgaben gesammelt im
+                persönlichen Bereich der Anwendung betrachten und noch weitere hinzufügen, die nicht aufgeteilt
+                werden sollen.
+            </p>
+            <p class="solution-text">
+                Zudem können persönliche Ausgaben kategorisiert werden. Diese Kategorien können dann in einer
+                Monatsübersicht verglichen werden, um zu sehen wofür Geld während des Monats ausgegeben wurde.
+            </p>
+            <p class="solution-text">
+                Die Persistierung der Daten findet online über eine Datenbankanbindung statt. Somit können die
+                Ausgaben einer Gruppe nicht verloren gehen und von mehreren Nutzern bearbeitet werden.
+            </p>
+        </div>
         <div class="row">
-            <div class="col-xl-8 col-lg-12 col-12 story solution-col">
-                <h2 class="solution-headline">Lösung</h2>
-                <p>In der neuentwickelten mobilen Anwendung kann man die erhaltenen Noten jederzeit eintragen und
-                    ansehen. Zudem ermöglicht Unicalc einen tieferen Einblick in die gesammelten Noten durch
-                    aufschlüsselnde Statistiken. So kann man beispielsweiße sehen wie viele ECTS in den jeweiligen
-                    Semestern gesammelt wurden oder den Notenschnitt der einzelnen Semster einsehen. <br>
-                    Weiterhin gibt die App einen guten Überblick über den Fortschritt im Studium, da stehts die gesamt
-                    benötigten Credits mit den bereis gesammelten Credits aufgewogen werden.</p>
+            <div class="col-xl-6 col-lg-6 col-12 image-col">
+                <img class="phone-img-2" src="../images/phone_2_squid.svg" alt="Bild der Anwendung">
             </div>
-            <div class="col-xl-4 col-lg-12 col-12 image-col">
+            <div class="col-xl-6 col-lg-6 col-12 image-col">
 
-                <img class="phone-img-2" src="../images/phone_2_unicalc.svg" alt="Bild der Anwendung">
+                <img class="phone-img-2" src="../images/phone_3_squid.svg" alt="Bild der Anwendung">
 
             </div>
         </div>
@@ -156,30 +166,23 @@
         crossorigin="anonymous"></script>
 </body>
 
-<footer class="unicalc-footer">
+<footer class="squid-footer">
     <div class="row align-items-center">
         <div class="col-12 col-md-6 contact-col">
             <h2 class="intersted-heading">Interesse? Kontaktieren Sie mich!</h2>
             <h3>Telefon</h3>
             <p>
-                <a class="light-link-unicalc" href="tel:+4915175048720">(+49) 151 75048720</a>
+                <a class="light-link-squid" href="tel:+4915175048720">(+49) 151 75048720</a>
             </p>
             <h3>E-Mail</h3>
             <p>
-                <a class="light-link-unicalc" href="mailto:florian.weber261199@gmail.com"
+                <a class="light-link-squid" href="mailto:florian.weber261199@gmail.com"
                     target="_blank">florian.weber261199@gmail.com</a>
             </p>
         </div>
         <div class="col-12 col-md-6 right-links">
             <p>
-                <a class="light-link-unicalc" href="../index.html">Zurück zur Homepage</a>
-            </p>
-
-            <p>
-                <a class="light-link-unicalc"
-                    href="https://play.google.com/store/apps/details?id=com.diamondStudios.Unicalc"
-                    target="_blank">Unicalc im
-                    Playstore <i class="fa-solid fa-up-right-from-square"></i></a>
+                <a class="light-link-squid" href="../index.html">Zurück zur Homepage</a>
             </p>
         </div>
         <p class="credit light-text mt-5">Made with 🤍 by Florian Weber</p>

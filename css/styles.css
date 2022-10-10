@@ -137,26 +137,26 @@ h2 {
 }
 
 
-/* Skills */
+/* Projects */
 
-#skills {
-    padding: 15% 15%;
+#projects {
+    padding: 15% 15% 7%;
     background-color: #FCDA68;
     text-align: start;
 }
 
-.skills-title {
+.project-title {
     padding-right: 5%;
 }
 
-.skills-heading {
+.project-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 2;
 }
 
-.skill-box {
+.project-box {
     margin: 10% 0 20%;
 }
 

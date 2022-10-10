@@ -1,11 +1,11 @@
 /* CSS of Unicalc Page */
 
-#unicalc-heading {
-    background-color: #33CEFF;
+#squid-heading {
+    background-color: #FFBD2F;
     padding: 30% 20% 10%;
 }
 
-.unicalc-title {
+.squid-title {
     color: white;
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
@@ -15,7 +15,7 @@
 /* short description */
 
 #short-description {
-    padding: 7% 15% 3%;
+    padding: 10% 15%;
     text-align: left;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -28,7 +28,7 @@
 }
 
 .summary-box {
-    background-color: #33CEFF;
+    background-color: #FFBD2F;
     color: white;
     padding: 50px 60px;
     border-radius: 10px;
@@ -54,26 +54,16 @@
     width: 75px;
 }
 
-/* Call to Download */
-
-#ct-download {
-    margin: 7% 15% 10%;
-}
-
-.google-play-btn {
-    color: white;
-    background-color: #33CEFF;
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    font-weight: 700;
+.firebase-img {
+    margin: 10px;
+    width: 80px;
 }
 
 /* Background Story */
 
 #background-story {
     padding: 7% 15%;
-    background-color: #33CEFF;
+    background-color: #FFBD2F;
 
 }
 
@@ -109,13 +99,12 @@
     padding: 7% 15%;
 }
 
-.solution-col {
-    padding-right: 10%;
+.solution-text {
     padding-bottom: 60px;
 }
 
 .solution-headline {
-    padding: 0 0 20px;
+    padding-bottom: 20px;
 }
 
 .phone-img-2 {
@@ -125,8 +114,8 @@
 
 /* Footer */
 
-.unicalc-footer {
-    background-color: #33CEFF;
+.squid-footer {
+    background-color: #FFBD2F;
     color: white;
     padding: 5% 15% 3%;
 }
@@ -139,13 +128,13 @@
     margin-bottom: 30px;
 }
 
-.light-link-unicalc {
+.light-link-squid {
     text-decoration: none;
     color: white;
 }
 
 
-.light-link-unicalc:hover {
+.light-link-squid:hover {
     text-decoration: none;
     color: grey;
 }
