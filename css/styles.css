@@ -24,6 +24,18 @@ h2 {
     color: white;
 }
 
+.primary-color {
+    color: #FCDA68;
+}
+
+.link-text {
+    text-decoration: none;
+}
+
+.link-text:hover {
+    color: rgb(8, 116, 152);
+}
+
 /* Navbar */
 
 .navbar {
@@ -264,6 +276,35 @@ footer {
 
 
 /* About Page */
+
+
+#about-heading {
+    margin: 12% 15% 7%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 2;
+}
+
+
+/* Bio */
+
+#bio {
+    margin: 7% 15%;
+}
+
+
+.flo-about-img {
+    width: 80%;
+    max-width: 500px;
+}
+
+.bio-text {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
 
 /* Education Section */
 
