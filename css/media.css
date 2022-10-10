@@ -88,6 +88,10 @@
         padding: 10% 20%;
     }
 
+    #squid-heading {
+        padding: 10% 20%;
+    }
+
     .summary-col {
         padding: 10% 0;
     }
@@ -104,6 +108,10 @@
     }
 
     .unicalc-title {
+        font-size: 3rem;
+    }
+
+    .squid-title {
         font-size: 3rem;
     }
 
@@ -135,6 +143,10 @@
     }
 
     .unicalc-title {
+        font-size: 2rem;
+    }
+
+    .squid-title {
         font-size: 2rem;
     }
 
