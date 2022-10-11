@@ -40,6 +40,10 @@ h2 {
     color: rgb(8, 116, 152);
 }
 
+.normal-text {
+    font-size: 1.2rem;
+}
+
 /* Navbar */
 
 .navbar {
@@ -106,6 +110,16 @@ h2 {
 
 .florian-weber {
     color: #FCDA68;
+    text-decoration: none;
+}
+
+.florian-weber:hover {
+    position: relative;
+    left: -20px;
+    padding: 20px;
+    background-color: black;
+    color: #FCDA68;
+    border-radius: 20px;
 }
 
 .image-col {
@@ -308,7 +322,7 @@ footer {
 
 .bio-text {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
@@ -332,6 +346,7 @@ footer {
 
 .education-box p {
     color: grey;
+    font-size: 1.1rem;
 }
 
 

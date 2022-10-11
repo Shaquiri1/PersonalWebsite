@@ -2,6 +2,15 @@
 
 /* All Large Devices and below */
 @media only screen and (max-width: 1199px) {
+
+    .florian-weber:hover {
+        position: static;
+        padding: 20px;
+        background-color: black;
+        color: #FCDA68;
+        border-radius: 20px;
+    }
+
     .flo-image {
         position: static;
         width: 70%;
